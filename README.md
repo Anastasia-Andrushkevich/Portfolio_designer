@@ -4,6 +4,6 @@ Cтраница портфолио UI/UX дизайнера по макету Fi
 
 [Посмотреть на Github Pages](https://anastasia-andrushkevich.github.io/Portfolio_designer/)
 
-![screenshot][image/screenshot_page.png]
+![screenshot][/image/screenshot_page.png]
 
 Исходный макет [Figma](https://www.figma.com/file/5D9pDuLtS042hzaoN69Kd7/Free--Landing--Page-Template?node-id=254%3A515&t=cJnyaIxqMKDdCB9c-0)
