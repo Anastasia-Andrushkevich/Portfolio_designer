@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_designer",
+  "version": "1.0.0",
+  "description": "Cтраница портфолио UI/UX дизайнера по макету Figma, с использованием flex-box и анимации по наведению курсора, а также адаптивная верстка под мобильную версию с применением js",
+  "main": "scripts.js",
+  "scripts": {
+    "watch": "sass --watch scss/style.scss ./style.css",
+    "build": "sass scss/style.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastasia-Andrushkevich/Portfolio_designer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastasia-Andrushkevich/Portfolio_designer/issues"
+  },
+  "homepage": "https://github.com/Anastasia-Andrushkevich/Portfolio_designer#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
