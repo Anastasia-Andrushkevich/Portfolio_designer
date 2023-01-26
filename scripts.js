@@ -8,3 +8,21 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+window.addEventListener("DOMContentLoaded", function(){
+    document.querySelector(".toogle input").addEventListener("change", function(e){
+      if(e.target.checked) {
+         document.body.classList.add("dark_theme");
+      } else {
+         document.body.classList.remove("dark_theme");
+      }
+    });
+  });
+  window.addEventListener("DOMContentLoaded", function(){
+    document.querySelector(".toogle_mob input").addEventListener("change", function(e){
+      if(e.target.checked) {
+         document.body.classList.add("dark_theme");
+      } else {
+         document.body.classList.remove("dark_theme");
+      }
+    });
+  });
