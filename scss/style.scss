@@ -69,7 +69,7 @@ header{
         }
         label{
             text-align: right;
-             .toogle{
+             .toggle{
                 display: inline-block;
                 position: relative;
                 cursor: pointer;
@@ -95,7 +95,7 @@ header{
                     width: 20px;
                 }
             }
-            .toogle input:checked + .slider_round {
+            .toggle input:checked + .slider_round {
                 left: 100%;
                 transform: translateX(-100%);
             }
@@ -161,7 +161,7 @@ nav li{
         }
         label{
             text-align: right;
-             .toogle_mob{
+             .toggle_mob{
                 display: inline-block;
                 position: relative;
                 cursor: pointer;
@@ -187,7 +187,7 @@ nav li{
                     width: 20px;
                 }
             }
-            .toogle_mob input:checked + .slider_round_mob {
+            .toggle_mob input:checked + .slider_round_mob {
                 left: 100%;
                 transform: translateX(-100%);
             }

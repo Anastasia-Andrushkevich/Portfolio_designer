@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", function () {
     });
 });
 window.addEventListener("DOMContentLoaded", function(){
-    document.querySelector(".toogle input").addEventListener("change", function(e){
+    document.querySelector(".toggle input").addEventListener("change", function(e){
       if(e.target.checked) {
          document.body.classList.add("dark_theme");
       } else {
@@ -18,7 +18,7 @@ window.addEventListener("DOMContentLoaded", function(){
     });
   });
   window.addEventListener("DOMContentLoaded", function(){
-    document.querySelector(".toogle_mob input").addEventListener("change", function(e){
+    document.querySelector(".toggle_mob input").addEventListener("change", function(e){
       if(e.target.checked) {
          document.body.classList.add("dark_theme");
       } else {

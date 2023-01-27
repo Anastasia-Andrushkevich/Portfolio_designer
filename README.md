@@ -1,6 +1,6 @@
 # Portfolio page - landing page of UX | UI designer #
 
-Cтраница портфолио UI/UX дизайнера по макету Figma, с использованием flex-box и анимации по наведению курсора, а также адаптивная верстка под мобильную версию с применением js 
+Cтраница портфолио UI/UX дизайнера по макету Figma, с использованием flex-box и анимации по наведению курсора,переключение темной темы через chackbox, а также адаптивная верстка под мобильную версию с применением js.  
 
 [Посмотреть на Github Pages](https://anastasia-andrushkevich.github.io/Portfolio_designer/)
 
