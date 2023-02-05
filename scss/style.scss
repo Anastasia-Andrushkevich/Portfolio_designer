@@ -5,6 +5,9 @@
     font-family:  'Rubik', sans-serif; 
 
 }
+*{
+    transition: background-color 700ms;
+}
 body {
     --main-bg-color:#FFFFFF;
     --main-bold-color: #000000;
@@ -17,6 +20,7 @@ body {
     --bt-tx-color: #FFFFFF;
     --chb-bg-color: #beb9b9;
     --netw-color: #c8c8c8;
+    --netw-svg: #070707;
 }
 body.dark_theme{
     --main-bg-color:#121212;
@@ -25,11 +29,12 @@ body.dark_theme{
     --row-bg-color: #302f2f;
     --link-color: #FFFFFF;
     --lang-color: #FFFFFF;
-    --nav-color: #666565;
+    --nav-color: #b7b4b4;
     --bt-bg-color: #FFFFFF;
     --bt-tx-color: #000000;
     --chb-bg-color: #ddd8d8;
     --netw-color: #464444;
+    --netw-svg: #666565;
 }
 header
 main{
@@ -329,6 +334,7 @@ nav li{
             }
             p{
                 padding: 18px; 
+                color: var(--main-tx-color)
             }
         }
     }
@@ -360,39 +366,16 @@ nav li{
 		flex-wrap: wrap;
 		gap:40px;
 		margin: 45px auto;
-        a:hover{
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-			transition: 200ms;
-        }
-        .network_linkedln{
-            a{
-                width: 40px;
-                height: 40px;
-                display: inline-block;
+        a{
+            svg{
+                fill: var(--netw-svg);
+                stroke: var(--netw-svg);
+            
+               &:hover{
+                fill: #2d4965;
+                stroke: #2d4965;
             }
         }
-        .network_inst{
-            a{
-                width: 40px;
-                height: 40px;
-                display: inline-block;
-                border-radius: 10px;
-            }
-        }
-        .network_bechance{
-            a{
-                width: 40px;
-			    height: 40px;
-			    display: inline-block;
-            }
-        }
-        .network_dribble{
-            a{
-                width: 40px;
-                height: 40px;
-                display: inline-block;
-                border-radius: 18px;
-            }
         }
     }
     h5{
